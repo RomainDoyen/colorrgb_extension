@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "name": "Color RGB",
+    "version": "1.0.0",
+    "description": "Color RGB",
+    "permissions": [
+        "activeTab",
+        "scripting"
+    ],
+    "action": {
+        "default_popup": "index.html"
+    }
+}

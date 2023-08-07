@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="content">
+        <div class="rgbcolors">
+            <label for="r">R</label>
+            <input id="r" type="range" min="0" max="255" step="1" value="0">
+            <output id="r_out" for="r">0</output>
+        </div>
+        <div class="rgbcolors">
+            <label for="g">G</label>
+            <input id="g" type="range" min="0" max="255" step="1" value="0">
+            <output id="g_out" for="g">0</output>
+        </div>
+        <div class="rgbcolors">
+            <label for="b">B</label>
+            <input id="b" type="range" min="0" max="255" step="1" value="0">
+            <output id="b_out" for="b">0</output>
+        </div>
+
+        <output id="hex">#000000</output>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
