@@ -8,6 +8,16 @@
         "scripting"
     ],
     "action": {
-        "default_popup": "index.html"
+        "default_popup": "pages/index.html",
+        "default_icon": {
+            "16": "images/rgb_color_9827.png",
+            "48": "images/rgb_color_9827.png",
+            "128": "images/rgb_color_9827.png"
+        }
+    },
+    "icons": {
+        "16": "images/rgb_color_9827.png",
+        "48": "images/rgb_color_9827.png",
+        "128": "images/rgb_color_9827.png"
     }
 }
